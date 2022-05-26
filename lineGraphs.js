@@ -5,6 +5,10 @@ const LineGraph = {
 	ave : 0,
 	dataSize : 50,
 	list : new Array(),
+	
+	eraseData : function(){
+		this.list.length = 0;
+	},
 
 	addData : function(data) {
 		this.list.push(data);/*
